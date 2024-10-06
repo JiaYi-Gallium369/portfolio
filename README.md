@@ -32,12 +32,11 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 
 ### [NUS Women in Tech - Publicity Associate](#)
 * **Description:** Created posts for upcoming Women in Tech events.
-* ![wit_careertalk](./images/wit_careertalk.png)
-* ![wit_humanlib](./images/wit_humanlib.png)
+* <img src="./images/wit_careertalk.png" alt="wit_careertalk" width="300"/>      <img src="./images/wit_humanlib.png" alt="wit_humanlib" width="300"/>
 
 ### [NUS Computing Club - Publicity Subcommitee](#)
 * **Description:** Designed a folder as welfare for NUS computing students.
-* ![compclub](./images/compclub.jpg)
+* <img src="./images/compclub.jpg" alt="compclub" width="400"/>
 
 ## Content Creation
 
