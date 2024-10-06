@@ -8,7 +8,7 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 * **Description:** A software platform that allows users to create music using coding blocks, combining artistic expression and computational thinking.
 * **Technologies:** React, Javascript, CSS, Vercel, Django, Railway, Render
 * **Link:** [View Project](https://algorhythm-milestone2.vercel.app/)
-* ![Orbital](./images/Orbital.png)
+* ![Orbital](./images/orbital.png)
 
 ### [Personal Website](#)
 * **Description:** A personal website to sell second hand items.
@@ -37,7 +37,7 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 
 ### [NUS Computing Club - Publicity Subcommitee](#)
 * **Description:** Designed a folder as welfare for NUS computing students.
-* ![compclub](./images/compclub.png)
+* ![compclub](./images/compclub.jpg)
 
 ## Content Creation
 
