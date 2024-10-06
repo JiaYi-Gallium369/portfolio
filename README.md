@@ -26,26 +26,15 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 
 ## Design Projects
 
-### [Project Title - e.g., Drag-and-Drop Timeline Tool](#)
-* **Description:** A web tool allowing users to input and edit music-related details on a timeline using drag-and-drop functionality.
-* **Technologies:** React, React DnD, Supabase
-* **Link:** [View Project](#)
+### [Women in Tech - Publicity Associate](#)
 
-### [Project Title - e.g., Gallium JavaFX Application](#)
-* **Description:** Developed a JavaFX application that processes tasks and features command-line editing functionalities.
-* **Technologies:** Java, JavaFX
-* **Link:** [View Project](#)
 
-## Content Writing Projects
+### [NUS Computing Club - Publicity Subcommitee](#)
+=
 
-### [Project Title - e.g., Blog Post on Tech Event Coverage](#)
-* **Description:** Wrote an article covering a tech event, highlighting key takeaways and insights from guest speakers.
-* **Link:** [Read Article](#)
+## Content Creation
 
-### [Project Title - e.g., International Student Orientation Guide](#)
-* **Description:** Created a guide for new international students, providing tips on navigating university life and finding resources.
-* **Link:** [Read Guide](#)
+### [Xiao Hong Shu Personal Account](#)
+* **Description:** Personal Xiao Hong Shu (Chinese social media app) account, used Canva to design and post NUS application related content here to engage with more incoming freshies.
+* **Link:** [Xiao Hong Shu](https://www.xiaohongshu.com/user/profile/63e5f4e4000000002702a8b7?xhsshare=CopyLink&appuid=63e5f4e4000000002702a8b7&apptime=1720152918&share_id=b390fed092534a9685e9c69458196a53&tab=note)
 
----
-
-For any inquiries or collaboration requests, feel free to reach out!
