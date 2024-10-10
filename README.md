@@ -7,13 +7,18 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 ### [NUS Orbital Project](https://nusskylab-dev.comp.nus.edu.sg/posters/2024/6054.jpeg)
 * **Description:** A software platform that allows users to create music using coding blocks, combining artistic expression and computational thinking.
 * **Technologies:** React, Javascript, CSS, Vercel, Django, Railway, Render
-* **Link:** [View Project](https://algorhythm-milestone2.vercel.app/)
+* **Link:** [View Website](https://algorhythm-milestone2.vercel.app/)
 * ![Orbital](./images/orbital.png)
+
+### NUS MedTech Society - Portfolio Website
+* **Description:** A portfolio website for NUS MedTech Society to publicize their upcoming events and projects.
+* **Technologies:** React, CSS
+* ![MedTech Website](./images/medtech.png)
 
 ### Personal Website
 * **Description:** A personal website to sell second hand items.
 * **Technologies:** React, CSS, Firebase
-* **Link:** [View Project](https://2ndhand-tawny.vercel.app/) (Link not accessible through NUS WiFi)
+* **Link:** [View Website](https://2ndhand-tawny.vercel.app/) (Link not accessible through NUS WiFi)
 * ![Personal Website](./images/2ndhand.png)
 
 ### Freshies' Helper Telegram Bot
