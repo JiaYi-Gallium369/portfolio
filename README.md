@@ -15,17 +15,23 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 * **Technologies:** React, CSS
 ![MedTech Website](./images/medtech.png)
 
+### CS2103T - Software Engineering Team Project - AdmiNUS
+* **Description:** A contact management system for NUS clubs.
+* **Technologies:** Java, JavaFX
+* **Link:** [View Project](https://github.com/JiaYi-Gallium369/tp)
+![tp UI](./images/tp.png)
+
+### CS2103T - Software Engineering Individual Project - Task Manager Chatbot
+* **Description:** A todos, deadlines and events manager chatbot.
+* **Technologies:** Java, JavaFX
+* **Link:** [View Project](https://github.com/JiaYi-Gallium369/ip)
+<img src="./images/Ui.png" alt="Ui" width="500"/>
+
 ### Freshies' Helper Telegram Bot
 * **Description:** A Telegram bot to assist NUS freshies in accessing 100+ FAQs about hostel application, QET and student pass information.
 * **Technologies:** Python, Supabase, Telegram Bot API
 * **Bot Username:**  @mslfreshies_bot (Click this [link](https://api.render.com/deploy/srv-cptv1pl6l47c7383pcog?key=Cpf6YeHVqFc) to activate the bot before using it.)
 <img src="./images/telebot.png" alt="telebot" width="500"/>
-
-### CS2103T - Software Engineering Project - Task Manager Chatbot
-* **Description:** A todos, deadlines and events manager chatbot.
-* **Technologies:** Java, JavaFX
-* **Link:** [View Project](https://github.com/JiaYi-Gallium369/ip)
-<img src="./images/Ui.png" alt="Ui" width="500"/>
 
 ## Web Design
 ### Pre-Loved Items Website
