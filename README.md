@@ -10,9 +10,10 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 * **Link:** [View Website](https://algorhythm-milestone2.vercel.app/)
 ![Orbital](./images/orbital.png)
 
-### NUS MedTech Society - Portfolio Website
+### [NUS MedTech Society - Portfolio Website](https://github.com/nusmedtech/NUS-MedTech)
 * **Description:** A portfolio website for NUS MedTech Society to publicize their upcoming events and projects.
 * **Technologies:** React, HTML, CSS, JavaScript
+* **Link:** [View Website](https://nusmedtech.github.io/NUS-MedTech/)
 ![MedTech Website](./images/medtech.png)
 
 ### CS2103T - Software Engineering Team Project - AdmiNUS
