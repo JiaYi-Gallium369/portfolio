@@ -12,12 +12,12 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 
 ### NUS MedTech Society - Portfolio Website
 * **Description:** A portfolio website for NUS MedTech Society to publicize their upcoming events and projects.
-* **Technologies:** React, CSS
+* **Technologies:** React, HTML, CSS, JavaScript
 ![MedTech Website](./images/medtech.png)
 
 ### CS2103T - Software Engineering Team Project - AdmiNUS
 * **Description:** A contact management system for NUS clubs.
-* **Technologies:** Java, JavaFX
+* **Technologies:** Java, JavaFX, CSS
 * **Link:** [View Project](https://ay2425s1-cs2103t-t14-2.github.io/tp/)
 ![tp UI](./images/tp.png)
 
@@ -38,7 +38,7 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 ## Web Design
 ### Pre-Loved Items Website
 * **Description:** A personal website to sell pre-loved items.
-* **Technologies:** React, CSS, Firebase
+* **Technologies:** React, HTML, CSS, Javascript, Firebase
 * **Link:** [View Website](https://2ndhand-tawny.vercel.app/) (Link not accessible through NUS WiFi)
 
 ![Personal Website](./images/2ndhand.png)
