@@ -44,7 +44,7 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 
 ![Personal Website](./images/2ndhand.png)
 
-### High School Notes Website
+### High School Notes WordPress Website
 * **Description:** A personal website to sell A-Level notes.
 * **Technologies:** WordPress
 * **Link:** [View Website](https://jiayi369.wordpress.com/)
@@ -55,10 +55,11 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 
 ### NUS Women in Tech - Publicity Associate
 * **Description:** Created posts for upcoming Women in Tech events.
+* **Link:** [View WiT Instagram](https://www.instagram.com/nuswit/)
 
 <img src="./images/wit_careertalk.png" alt="wit_careertalk" width="300"/>      <img src="./images/wit_humanlib.png" alt="wit_humanlib" width="300"/>
 
-### NUS Computing Club - Publicity Subcommitee
+### NUS Computing Club - Publicity Subcommittee
 * **Description:** Designed a folder as welfare for NUS computing students.
 
 <img src="./images/compclub.jpg" alt="compclub" width="400"/>
