@@ -39,7 +39,7 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 ## Web Design
 ### Pre-Loved Items Website
 * **Description:** A personal website to sell pre-loved items.
-* **Technologies:** React, HTML, CSS, Javascript, Firebase
+* **Technologies:** React, Javascript, Firebase
 * **Link:** [View Website](https://2ndhand-tawny.vercel.app/) (Link not accessible through NUS WiFi)
 
 ![Personal Website](./images/2ndhand.png)
