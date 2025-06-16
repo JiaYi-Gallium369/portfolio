@@ -1,0 +1,113 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: #ECF0F1;
+  font-family: monospace, sans-serif;
+}
+
+.navbar {
+  background-color: #312e2c;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 25vh;
+  opacity: 0.1;
+  transition-duration: 0.5s;
+}
+
+.navbar:hover {
+  opacity:1;
+}
+
+.navbar h1 {
+  color: #ffc894;
+  text-align: center;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.nav-list a {
+  color: #ffc894;
+  text-decoration: none;
+  margin: 0 1rem;
+  transition-duration: 0.5s;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: #ffd1d1;
+  font-size: larger;
+}
+
+.hamburger {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list {
+    background-color: #312c2c;
+    flex-direction: column;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    transition: opacity 0.5s, visibility 0.3s;
+    margin-top: 0;
+    padding-left:0;
+  }
+
+  .nav-list.active {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    height: 90vh;
+  }
+
+  .navbar {
+    display: flex;
+    height: 15vh;
+    opacity: 0.5;
+  }
+
+  .navbar h1 {
+    justify-self:end;
+    align-self:end;
+  }
+
+  .nav-list li {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .nav-list a {
+    text-decoration: underline;
+  }
+
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #ECF0F1;
+  }
+
+  .navbar h1 {
+    margin-left: 2rem;
+  }
+}
