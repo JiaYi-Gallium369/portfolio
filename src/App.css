@@ -15,12 +15,16 @@
   top: 0;
   z-index: 1;
   height: 25vh;
-  opacity: 0.1;
+  opacity: 0.05;
   transition-duration: 0.5s;
 }
 
 .navbar:hover {
   opacity:1;
+}
+
+.navbar.top {
+  opacity: 1;
 }
 
 .navbar h1 {
@@ -53,6 +57,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 
 @media screen and (max-width: 767px) {
   .nav-list {

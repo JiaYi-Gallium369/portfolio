@@ -1,5 +1,5 @@
 import './App.css';
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import { About, Skills, Interests, Contact } from "./Others";
 import Work from "./Work";
 import Projects from "./Projects";
@@ -7,11 +7,23 @@ import Projects from "./Projects";
 function App() {
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isTop, setIsTop] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsTop(window.scrollY === 0);
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <div className="App">
       <title>Jia Yi's Page</title>
-      <nav className="navbar">
+      <nav className={`navbar ${isTop? 'top' : ''}`}>
         <button className="hamburger" 
           aria-label="Toggle menu"
           aria-expanded={isMobileMenuOpen}
