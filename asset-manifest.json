@@ -1,13 +1,28 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2909c672.css",
-    "main.js": "/portfolio/static/js/main.3b993944.js",
+    "main.js": "/portfolio/static/js/main.4fb7b447.js",
+    "static/media/pfp.jpg": "/portfolio/static/media/pfp.b8dc2aecf6cd4ce6d6e1.jpg",
+    "static/media/wit_arts.png": "/portfolio/static/media/wit_arts.22a870e0ce5c72ccc46d.png",
+    "static/media/wit_picnic.png": "/portfolio/static/media/wit_picnic.db0dad68cedbba00ab00.png",
+    "static/media/medtech.png": "/portfolio/static/media/medtech.397e276f93307ea23ee4.png",
+    "static/media/orbital-poster.jpeg": "/portfolio/static/media/orbital-poster.df7623a86d3a568473a8.jpeg",
+    "static/media/notes.png": "/portfolio/static/media/notes.56a9472e98157da8f26f.png",
+    "static/media/secondhand.png": "/portfolio/static/media/secondhand.846316fea07d555d2b14.png",
+    "static/media/wit_careertalk.png": "/portfolio/static/media/wit_careertalk.a00dd0deb006b826b6bd.png",
+    "static/media/telebot.png": "/portfolio/static/media/telebot.75c12b9eee92c4d64fb7.png",
+    "static/media/highschool.png": "/portfolio/static/media/highschool.c1ef97bcc77206c19572.png",
+    "static/media/wit_humanlib.png": "/portfolio/static/media/wit_humanlib.31c43701c6d3667fe687.png",
+    "static/media/orbital.png": "/portfolio/static/media/orbital.e808cc3303d2f84cb445.png",
+    "static/media/Ui.png": "/portfolio/static/media/Ui.be21a3ae2c09fdd9af9e.png",
+    "static/media/compclub.jpg": "/portfolio/static/media/compclub.fcec595a2068589cd81b.jpg",
+    "static/media/tp.png": "/portfolio/static/media/tp.bbfb0c9c3562be2762c5.png",
     "index.html": "/portfolio/index.html",
     "main.2909c672.css.map": "/portfolio/static/css/main.2909c672.css.map",
-    "main.3b993944.js.map": "/portfolio/static/js/main.3b993944.js.map"
+    "main.4fb7b447.js.map": "/portfolio/static/js/main.4fb7b447.js.map"
   },
   "entrypoints": [
     "static/css/main.2909c672.css",
-    "static/js/main.3b993944.js"
+    "static/js/main.4fb7b447.js"
   ]
 }
