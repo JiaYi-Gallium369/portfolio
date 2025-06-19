@@ -34,6 +34,7 @@ function App() {
         <h1 className="h1">Jia Yi's Portfolio</h1>
         <ul className={`nav-list ${isMobileMenuOpen ? 'active' : ''}`} id="nemu">
           <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#work-experience">Work Experience</a></li>
           <li><a href="#projects">Projects</a></li>

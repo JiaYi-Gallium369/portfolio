@@ -5,35 +5,35 @@
       "description": "A full stack music platform with 10 interactive features to enable users to create music with logical blocks such as loops and conditionals, fostering creativity and accessibility for beginners in programming and music composition.",
       "technologies": ["React", "Javascript", "CSS", "Blockly", "Django"],
       "link": "https://algorhythm-milestone2.vercel.app/", 
-      "image": "./images/orbital.png"
+      "image": "./orbital.png"
     },
     {
       "name": "NUS MedTech Society - Portfolio Website",
       "description": "A portfolio website for NUS MedTech Society to publicize their upcoming events and projects.",
       "technologies": ["React", "HTML", "CSS", "JavaScript"],
       "link": "https://nusmedtech.github.io/NUS-MedTech/", 
-      "image": "./images/medtech.png"
+      "image": "./medtech.png"
     },
     {
       "name": "AdmiNUS, Contact Management System",
       "description": "A contacts management system for NUS clubs and societies administrators, incorporating 15 customized functionalities that potentially cut down the time needed on repetitive administrative tasks by 50%.",
       "technologies": ["Java", "JavaFX", "CSS"],
       "link": "https://ay2425s1-cs2103t-t14-2.github.io/tp/", 
-      "image": "./images/tp.png"
+      "image": "./tp.png"
     },
     {
       "name": "Gallium, Task Manager Chatbot",
       "description": "A todos, deadlines and events manager chatbot.",
       "technologies": ["Java", "JavaFX"],
       "link": "https://jiayi-gallium369.github.io/ip/", 
-      "image": "./images/Ui.png"
+      "image": "./Ui.png"
     },
     {
       "name": "Freshies' Helper Telegram Bot",
       "description": "A Telegram bot to assist 300 NUS applicants in accessing 100+ FAQs about hostel application, QET and student pass information.",
       "technologies": ["Python", "Supabase", "Telegram bot API"],
       "link": "https://t.me/mslfreshies_bot",
-      "image": "./images/telebot.png"
+      "image": "./telebot.png"
     }
   ],
   "Personal Web Development Projects": [
@@ -43,21 +43,21 @@
       "technologies": ["React", "Javascript", "Firebase"],
       "link": "https://2ndhand-tawny.vercel.app/",
       "note": "Link not accessible through NUS WiFi",
-      "image": "./images/secondhand.png"
+      "image": "./secondhand.png"
     },
     {
         "name": "Personal Website (High School)",
         "description": "My first ever website created to showcase my high school portfolio.",
         "technologies": ["HTML", "CSS"],
         "link": "https://jiayi-gallium369.github.io/Page/",
-        "image": "./images/highschool.png"
+        "image": "./highschool.png"
     },
     {
       "name": "High School Notes WordPress Website",
       "description": "A personal website to sell A-Level notes.",
       "technologies": ["WordPress"],
       "link": "https://jiayi369.wordpress.com/",
-      "image": "./images/notes.png"
+      "image": "./notes.png"
     }
   ]
 }

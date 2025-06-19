@@ -4,7 +4,8 @@
 }
 
 .projects p {
-    margin-top: 0.3rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
 }
 
 .project-header {
@@ -28,7 +29,6 @@
     color: #ffc894;
     transition-duration: 0.3s;
     font-weight: bold;
-    height: 100vh;
 }
 
 .project-item a:hover {
@@ -46,8 +46,12 @@
 }
 
 .project-content img {
-    max-height: 50vh;
+    max-height: 45vh;
     max-width: 40vw;
+}
+
+.project-text h4 {
+    margin-top: 0; 
 }
 
 .project-text {

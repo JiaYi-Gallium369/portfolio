@@ -60,6 +60,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-inline-start: 0px;
 }
 
 .course-box li {
@@ -169,7 +170,12 @@ h4 {
     color: #ffd1d1;
 }
 
-@media (max-width: 767px) {
+#about-content {
+  scroll-margin-top: 25vh;
+}
+
+@media only screen and (max-width: 1024px),
+  only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2)  {
 
     .about, .education, .skills, .work {
         height: auto;
@@ -217,9 +223,39 @@ h4 {
     }
 }
 
-@media (max-width: 590px) {
+@media only screen and (max-width: 590px),
+  only screen and (max-width: 590px) and (-webkit-min-device-pixel-ratio: 2)  {
     .video-container {
         width: 100vw;
         margin:0rem;
+    }
+
+    .image-container {
+        justify-self: center;
+        margin-right: 0rem;
+    }
+
+    .pfp {
+        width: 100vw;
+        height: auto;
+    }
+
+    .about {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .interests h2 {
+        font-size: 2rem;
+    }
+
+    .interests h3 {
+        font-size: 1.5rem;
+    }
+
+    .pics img {
+        width: 35vw;
+        height: auto;
+        margin: 1rem;
     }
 }

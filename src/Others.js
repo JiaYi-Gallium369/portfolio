@@ -1,15 +1,19 @@
-
-import "./Others.css"
+import "./Others.css";
+import pfp from "./images/pfp.jpg";
+import wit_careertalk from "./images/wit_careertalk.png";
+import wit_arts from "./images/wit_arts.png";
+import wit_humanlib from "./images/wit_humanlib.png";
+import wit_picnic from "./images/wit_picnic.png";
 
 function About() {
     return (
         <div className="container">
-            <div className="about" id="about">
-                <div className="image-container">
-                    <img src="./images/pfp.JPG" alt="My Picture!" className="pfp"/>
-                    <h2 className="overlay-text">About Me</h2>
+            <div className="about">
+                <div className="image-container" id="about">
+                    <img src={pfp} alt="My Picture!" className="pfp"/>
+                    <a href="#about-content"><h2 className="overlay-text">About Me</h2></a>
                 </div>
-                <div className="about-content">
+                <div className="about-content" id="about-content">
                 <p>
                     Hi! I am Jia Yi, a third-year Computer Science student at the National University of Singapore (NUS). 
                     With a passion for UI/UX and a strong foundation in software development, 
@@ -104,10 +108,10 @@ function Interests() {
             <h2>Interests</h2>
             <h3>Graphic Designing - Women in Tech @ NUS Computing Events</h3>
             <div className="pics">
-                <img src="./images/wit_careertalk.png" alt=""></img>
-                <img src="./images/wit_arts.png" alt=""></img>
-                <img src="./images/wit_humanlib.png" alt=""></img>
-                <img src="./images/wit_picnic.png" alt=""></img>
+                <img src={wit_careertalk} alt=""></img>
+                <img src={wit_arts} alt=""></img>
+                <img src={wit_humanlib} alt=""></img>
+                <img src={wit_picnic} alt=""></img>
             </div>
             <h3>Theatre and Musical Productions</h3>
             <h4>NUS Raffles Hall Musical Production</h4>

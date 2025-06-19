@@ -14,8 +14,8 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  height: 25vh;
-  opacity: 0.05;
+  height: 20vh;
+  opacity: 0.8;
   transition-duration: 0.5s;
 }
 
@@ -58,8 +58,27 @@ html {
   scroll-behavior: smooth;
 }
 
+#about,
+#contact {
+  scroll-margin-top: 20vh;
+}
 
-@media screen and (max-width: 767px) {
+#education,
+#interests,
+#work-experience {
+  scroll-margin-top: 10vh;
+}
+
+#projects {
+  scroll-margin-top: 15vh;
+}
+
+#skills {
+  scroll-margin-top: 7vh;
+}
+
+@media only screen and (max-width: 1024px),
+  only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   .nav-list {
     background-color: #312c2c;
     flex-direction: column;
@@ -70,7 +89,7 @@ html {
     align-items: center;
     opacity: 0;
     visibility: hidden;
-    z-index: 1;
+    z-index: 2;
     transition: opacity 0.5s, visibility 0.3s;
     margin-top: 0;
     padding-left:0;
@@ -86,12 +105,13 @@ html {
   .navbar {
     display: flex;
     height: 15vh;
-    opacity: 0.5;
+    z-index: 1000;
   }
 
   .navbar h1 {
-    justify-self:end;
-    align-self:end;
+    justify-self:center;
+    align-self:center;
+    z-index:1000;
   }
 
   .nav-list li {
@@ -114,5 +134,15 @@ html {
 
   .navbar h1 {
     margin-left: 2rem;
+  }
+
+  #about,
+  #education,
+  #skills,
+  #work-experience,
+  #projects,
+  #interests,
+  #contact {
+    scroll-margin-top: 15vh;
   }
 }

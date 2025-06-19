@@ -29,8 +29,22 @@
     margin: 1rem;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 590px),
+  only screen and (max-width: 590px) and (-webkit-min-device-pixel-ratio: 2) {
   .work {
     height: auto;
+  }
+
+  .work p {
+    font-size: 1.4rem;
+    margin-top: 0.3rem;
+  }
+
+  .work ul {
+    padding-inline-start: 0px;
+  }
+
+  .work li {
+    font-size: 1rem;
   }
 }

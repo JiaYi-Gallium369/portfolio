@@ -28,6 +28,7 @@ const Slideshow = ({ items }) => {
     };
 
     return (
+        <div>
         <div className="slideshow-container">
             <button onClick={goPrevious} className="arrow left">&#10094;</button>
 
@@ -38,6 +39,18 @@ const Slideshow = ({ items }) => {
             </div>
             <button onClick={goNext} className="arrow right">&#10095;</button>
         </div>
+        <div className="dots">
+  {items.map((_, index) => (
+    <span
+      key={index}
+      className={`dot ${index === currentIndex ? 'active' : ''}`}
+      onClick={() => setCurrentIndex(index)}
+      role="button"
+      tabIndex="0"
+      aria-label={`Go to slide ${index + 1}`}></span>
+  ))}
+</div>
+</div>
     );
 };
 
