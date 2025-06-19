@@ -1,6 +1,7 @@
 import './App.css';
 import {useState, useEffect} from "react";
 import { About, Skills, Interests, Contact } from "./Others";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Work from "./Work";
 import Projects from "./Projects";
 
@@ -42,11 +43,23 @@ function App() {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <About />
-      <Skills />
-      <Work />
-      <Projects />
-      <Interests />
+      <Router>
+        <Routes>
+          <Route path = "/" element={
+            <>
+            <About />
+            <Skills />
+            <Work />
+            <Projects />
+            <Interests />
+            </>
+          }/>
+          {/* <Route path = "/skills" element={<Skills />}/>
+          <Route path = "/work-experience" element={<Work />}/>
+          <Route path = "/projects" element={<Projects />}/>
+          <Route path = "/interests" element={<Interests />}/> */}
+        </Routes>
+      </Router>
       <Contact />
     </div>
   );

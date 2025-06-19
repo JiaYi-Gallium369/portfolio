@@ -27,6 +27,8 @@ const Slideshow = ({ items }) => {
         }, 250);
     };
 
+
+
     return (
         <div>
         <div className="slideshow-container">
