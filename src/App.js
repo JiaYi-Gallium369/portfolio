@@ -4,6 +4,7 @@ import { About, Skills, Interests, Contact } from "./Others";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Work from "./Work";
 import Projects from "./Projects";
+import Guestbook from "./Guestbook";
 
 function App() {
 
@@ -45,13 +46,14 @@ function App() {
       </nav>
       <Router>
         <Routes>
-          <Route path = "/" element={
+          <Route path = "/portfolio" element={
             <>
             <About />
             <Skills />
             <Work />
             <Projects />
             <Interests />
+            <Guestbook />
             </>
           }/>
           {/* <Route path = "/skills" element={<Skills />}/>
