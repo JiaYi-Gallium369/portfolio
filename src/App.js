@@ -4,7 +4,7 @@ import { About, Skills, Interests, Contact } from "./Others";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Work from "./Work";
 import Projects from "./Projects";
-import Guestbook from "./Guestbook";
+// import Guestbook from "./Guestbook";
 
 function App() {
 
@@ -53,7 +53,7 @@ function App() {
             <Work />
             <Projects />
             <Interests />
-            <Guestbook />
+            {/* <Guestbook /> */}
             </>
           }/>
           {/* <Route path = "/skills" element={<Skills />}/>
