@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import FadeIn from "react-fade-in";
 import Card from "./ProjectCard";
+import WorkCard from "./WorkCard";
 import "./Slideshow.css";
 
-const Slideshow = ({ items }) => {
+const Slideshow = ({ items, category }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isVisible, setIsVisible] = useState(true);
 
@@ -27,7 +28,15 @@ const Slideshow = ({ items }) => {
         }, 250);
     };
 
+  const renderItem = () => {
+    const item = items[currentIndex];
 
+    if (category === "Work Experience") {
+      return <WorkCard work={item} />;
+    } else {
+      return <Card project={item} />;
+    }
+  };
 
     return (
         <div>
@@ -36,7 +45,7 @@ const Slideshow = ({ items }) => {
 
             <div className="slide-background">
                 <FadeIn className={`slide ${isVisible? 'visible' : ''}`} key={currentIndex}>
-                    {items && <Card project={items[currentIndex]} />}
+                    {renderItem()}
                 </FadeIn>
             </div>
             <button onClick={goNext} className="arrow right">&#10095;</button>

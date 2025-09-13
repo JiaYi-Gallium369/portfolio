@@ -15,14 +15,14 @@ function About() {
                 </div>
                 <div className="about-content" id="about-content">
                 <p>
-                    Hi! I am Jia Yi, a third-year Computer Science student at the National University of Singapore (NUS). 
-                    With a passion for UI/UX and a strong foundation in software development, 
-                    I am eager to contribute to projects that aim for providing a user-centric experience.
-                    I have experience in full-stack web development, 
-                    having worked on various projects that involve both frontend and backend technologies.
+                    Hi! I am Jia Yi, a third-year Computer Science student at the National University of Singapore (NUS).
                 </p>
                 <p>
-                    I also have a keen interest in exploring the field of cybersecurity,
+                    I'm always into building intuitive, <strong>user-friendly interfaces</strong> that people enjoy using, 
+                    and pairing them with solid <strong>backend</strong> logic so that everything works!
+                </p>
+                <p>
+                    I also have a keen interest in exploring the field of <strong>cybersecurity, networks and AI</strong>,
                     and I am always looking for opportunities to learn and grow in this area.
                 </p>
             </div>

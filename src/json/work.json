@@ -1,0 +1,25 @@
+{
+  "Work Experience": [
+    {
+      "role": "Full-Stack Developer",
+      "where" : "NUS Research Project \"Crowdsourcing Perceptions of Urban Environments\"",
+      "duration": "Jul 2025 - Present",
+      "link": "https://feel-sg-test.web.app/",
+      "description": ["Redesigned the frontend of a crowdsourced data platform with <strong>HTML, CSS and JavaScript</strong>, improving visual appeal and user engagement in collaboration with a UI/UX designer and cross-faculty professors.",
+                        "Implemented interactive map visualizations with <strong>Leaflet</strong>, enabling intuitive navigation and cross-device responsiveness.",
+                        "Optimized codebase for improved readability and long-term maintainability and maintained Firebase backend to securely store user data and manage authentication, enabling efficient and structured data retrieval for research analysis.",
+                        "<a href=\"https://feel-sg-test.web.app/\">Link to platform here!</a>"
+                    ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "where" : "NUS Enterprise - Minimum Viable Product (MVP) Studio",
+      "duration": "Jan 2025 - Jun 2025",
+      "description": ["Collaborated with a team of 5 to develop a bioacoustics data management system for an NUS research project using <strong>React, Django and PostgreSQL.</strong>", 
+                        "Created interactive and user-friendly data visualizations using <strong>Plotly</strong> and <strong>Google Maps API</strong>, enhancing usability and accessibility for researchers.",
+                        "Automated ML data pipeline using <strong>Power Automate, Python and MLFlow</strong>, improving overall efficiency in processing workflows.",
+                        "Implemented and automated audio data storage using <strong>Python</strong> to <strong>Google Cloud Storage</strong>, significantly reducing manual data entry time."
+      ]
+    }
+  ]
+}
